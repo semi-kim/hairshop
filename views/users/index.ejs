@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <% if(user_id) {%>
+    		<a href="/users/logout">로그아웃</a><br>
+        <a href="/users/update">회원정보 수정</a><br>
+        <a href="/users/delete">회원 탈퇴</a><br>
+    <% } else {%>
+   			 <a href="/users/login">로그인</a><br>
+   			 <a href="/users/join">회원 가입</a>
+ 		<% } %>
+  </body>
+</html>

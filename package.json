@@ -1,0 +1,26 @@
+{
+  "name": "member1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt-node": "^0.1.0",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "express": "^4.15.3",
+    "express-session": "^1.15.5",
+    "fb": "^2.0.0",
+    "mongoose": "^4.11.6",
+    "mongoose-auto-increment": "^5.0.1",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2",
+    "session": "^0.1.0"
+  },
+  "devDependencies": {
+    "zombie": "^5.0.7"
+  }
+}
